@@ -1,0 +1,38 @@
+# code-executor
+🚀 Code-Executor – Run Multiple Languages in VS Code!
+Code-Executor is a powerful and lightweight VS Code extension that allows you to run code in multiple programming languages directly from your editor. No need to switch terminals – just write your code and execute it instantly! ⚡
+
+🌟 Features
+✅ Supports Multiple Languages – JavaScript, Python, C++, Java, PHP
+✅ Execute Code Instantly – No external setup required
+✅ Seamless Integration – Works within the VS Code environment
+✅ Lightweight & Fast – Optimized for performance
+
+📥 Installation
+Open VS Code
+Go to Extensions Marketplace
+Search for: Code-Executor
+Click Install ✅
+OR Install Manually
+git clone https://github.com/your-repo/code-executor.git
+cd code-executor
+npm install
+code --extensionDevelopmentPath=.
+🚀 How to Use
+Open any JavaScript, Python, C++, Java, or PHP file
+Press Ctrl+Shift+P and select "Run Code with Code-Executor"
+View the output directly in VS Code!
+🛠️ Supported Languages
+🔹 JavaScript → Executes using Node.js
+🔹 Python → Runs via Python interpreter
+🔹 C++ → Compiles with GCC
+🔹 Java → Uses Java compiler & runtime
+🔹 PHP → Runs through PHP interpreter
+
+💡 Why Use Code-Executor?
+🚀 Fast & Efficient – Execute your code without leaving VS Code
+🔄 Multi-Language Support – No need for multiple setups
+🛠️ Beginner-Friendly – Simple commands to get started
+
+🤝 Contributing
+Want to add a new feature or fix a bug? Feel free to contribute!
