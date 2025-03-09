@@ -1,32 +1,44 @@
-Girdhar Extension is a powerful VS Code extension designed to enhance your coding experience. It provides various productivity-boosting features to streamline your workflow and improve efficiency.
+🚀 Girdhar Extension
+Girdhar Extension is a powerful VS Code extension that allows you to run multiple programming languages in a single environment. 🖥️💻 Whether you're working with Python, JavaScript, C++, Java, or any other language, this extension makes execution seamless and efficient.
 
-🚀 Features
-Code Auto-Completion – Helps you write code faster with intelligent suggestions.
-Syntax Highlighting – Enhances readability by color-coding different parts of the code.
-Code Formatting – Automatically formats your code for better structure.
-Custom Shortcuts – Adds new keyboard shortcuts for quick access to common actions.
-Error Detection – Identifies syntax errors and provides suggestions.
-🛠️ Installation
-Open Visual Studio Code.
-Go to the Extensions Marketplace.
-Search for Girdhar Extension.
-Click Install and restart VS Code.
-Alternatively, you can install it manually:
+🌟 Features
+✅ Multi-Language Support – Run Python, JavaScript, C++, Java, and more.
+✅ One-Click Execution – No need to switch editors—run all languages from VS Code.
+✅ Auto-Detection – Detects the language of the script and runs it accordingly.
+✅ Customizable Settings – Configure execution preferences as per your needs.
+✅ Lightweight & Fast – Minimal impact on system performance.
 
-git clone https://github.com/your-repo/girdhar-extension.git
-cd girdhar-extension
-npm install
-⚙️ Extension Settings
-This extension contributes the following settings:
+🛠️ How It Works?
+Project Structure 📂
+The Girdhar Extension consists of the following files:
 
-girdhar.enable: Enable/disable the extension.
-girdhar.theme: Choose a theme for better code readability.
-girdhar.shortcuts: Configure custom keyboard shortcuts.
-🛑 Known Issues
-Some features may not work on older versions of VS Code.
-Compatibility issues with specific themes.
-📜 Release Notes
-v1.0.0
-Initial release with core features.
-v1.1.0
-Added custom shortcuts and improved performance.
+📁 girdhar-extension (Main Project Folder)
+┣ 📁 src/ (Source Code)
+┃ ┗ 📄 extension.js → Core logic to run multiple languages
+┣ 📁 test/ (Testing files)
+┣ 📁 .vscode/ (Settings)
+┃ ┗ 📄 launch.json → Configuration for debugging
+┣ 📄 package.json → Dependencies & metadata
+┣ 📄 package-lock.json → Version control for dependencies
+┣ 📄 README.md → Project Documentation
+┣ 📄 .gitignore → Excluded files for Git
+┣ 📄 CHANGELOG.md → Updates & Version history
+┗ 📄 settings.json → User-configurable options
+
+Diagram Representation 📝
+📂 girdhar-extension  
+ ┣ 📂 src  
+ ┃ ┗ 📄 extension.js  
+ ┣ 📂 test  
+ ┣ 📂 .vscode  
+ ┃ ┗ 📄 launch.json  
+ ┣ 📄 package.json  
+ ┣ 📄 package-lock.json  
+ ┣ 📄 README.md  
+ ┣ 📄 .gitignore  
+ ┣ 📄 CHANGELOG.md  
+ ┗ 📄 settings.json  
+🎯 Benefits
+💡 Single Extension for All Languages – No need for separate compilers.
+💡 Time-Saving – Quickly switch between languages without hassle.
+💡 Developer-Friendly – Simple UI and easy-to-configure settings.
