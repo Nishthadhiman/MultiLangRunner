@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "npm: watch",
+          "type": "shell",
+          "command": "npm run watch",
+          "problemMatcher": [],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      },
+      {
+          "label": "Run Extension",
+          "type": "shell",
+          "command": "npm run test",
+          "problemMatcher": []
+      },
+      {
+          "type": "npm",
+          "script": "debug",
+          "group": "none",
+          "problemMatcher": [],
+          "label": "npm: debug",
+          "detail": "Run the debug script"
+      },
+      {
+          "label": "Debug Extension",
+          "type": "shell",
+          "command": "npm run debug",
+          "problemMatcher": [],
+          "group": {
+              "kind": "test",
+              "isDefault": false
+          }
+      }
+  ]
+}
